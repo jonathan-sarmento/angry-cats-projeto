@@ -9,7 +9,7 @@ enter = lambda:input('\nPressione ENTER para continuar...') # função que dá u
 
 def menu(): # menu de opcoes
     print('[ 1 ] Autores')
-    print('[ 2 ] Objetivo do jogo') # Com essa opção, não se faz necessário todo o código dentro de um while
+    print('[ 2 ] Objetivo do jogo')
     print('[ 3 ] Sair do jogo')
     print('[ 4 ] Voltar')
     op = int(input('>> '))
@@ -113,10 +113,6 @@ if __name__ == '__main__': # main
     print('criando cenário...')
     print('\n')
     sleep(1)
-    # print('Seu dono saiu para uma caminhada matinal, são '  + str(relogio) +' horas da manhã' + ' do dia '+str(dia) + ' e você tem até 09:00 horas da manhã para cumprir o objetivo do jogo!')
-    # sleep(12)
-    # print('O que você quer fazer primeiro?')
-    # sleep(3)
     # </enredo>
     
     while True:
